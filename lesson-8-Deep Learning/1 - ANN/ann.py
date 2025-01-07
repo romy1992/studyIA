@@ -52,7 +52,7 @@ Creo i layer :
             Ad esempio, dato un set di immagini, può restituire le probabilità per ogni classe di oggetti.
     
 SPIEGAZIONE PER CUI L'ULTIMO LAYER E' DIVERSO DAGLI ALTRI:
-    L'ultimo layer è diverso perchè si deve adattare alla risoluzione del problema.
+    L'ultimo layer è diverso perché si deve adattare alla risoluzione del problema.
     Infatti dovrà avere 1 neurone è come funzione di attivazione potrà essere :
         sigmoid: Per output di classificazione binario (0 o 1)
         softmax: Per multi output
