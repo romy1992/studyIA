@@ -1,0 +1,59 @@
+
+1. b) Prevedere valori continui
+2. b) Metodo dei minimi quadrati
+3. b) Esiste una relazione lineare tra la variabile dipendente e indipendente
+4. c) Mean Squared Error (MSE)
+5. c) La variazione della variabile dipendente per ogni unità di aumento della variabile indipendente
+6. c) Si adatta troppo ai dati di training, ma non generalizza su dati non visti
+7. c) Regressione Ridge e Lasso
+8. b) Il modello spiega bene la variabilità dei dati
+9. a) Non può gestire dati categorici
+10. c) Può portare a multicollinearità, riducendo l'affidabilità delle stime dei coefficienti
+
+11. b) Aggiunta di feature polinomiali
+12. a) Penalizza i coefficienti riducendoli a zero
+13. a) La differenza tra i dati osservati e quelli predetti
+14. a) Quando i dati mostrano una chiara relazione non lineare
+15. a) Gradient Descent
+16. b) La differenza tra i valori predetti e il vero valore medio
+17. b) Evitare overfitting riducendo i coefficienti grandi
+18. a) Un pattern circolare nei dati
+19. a) I coefficienti della regressione cambiano drasticamente quando si aggiunge una nuova variabile
+20. a) Regressione logistica
+
+11/01/25 : 13 su 20
+
+c Suddivisione in training e test set
+d Varianza costante degli errori
+b Variance Inflation Factor (VIF)
+c La media assoluta degli errori
+c Modellare le mediane condizionali
+a Una combinazione di regressione Ridge e Lasso
+b Ottenere stime più accurate delle performance
+c Per modellare relazioni esponenziali
+b Regressione kernelizzata
+b Buona performance del modello
+d Tutte le precedenti
+a La forza della penalizzazione
+a Quando le scale delle feature variano significativamente
+b Regressione Lasso
+b La media delle differenze tra valori predetti e osservati al quadrato
+a Predire probabilità di classi binarie
+b Regressione polinomiale
+a Per minimizzare l'impatto degli outlier
+a Una versione modificata di R² che tiene conto del numero di feature nel modello
+a Minimizza l'overfitting
+b La percentuale di variabilità spiegata dal modello
+a Gradient Descent
+b Peggiora le stime del modello
+a Aggiunta di variabili polinomiali
+c Quando ci sono più variabili indipendenti
+c Ottimizzare i parametri minimizzando l'errore
+a Il modello ha sottostimato il valore osservato
+c Richiede un numero maggiore di osservazioni
+a Un grafico che mostra i residui contro i valori predetti
+a Bilanciamento del dataset
+
+12/01/25 : 25 su 30
+
+tot : 38 su 50

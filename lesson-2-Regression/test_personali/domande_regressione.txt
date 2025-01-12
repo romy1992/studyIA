@@ -1,0 +1,300 @@
+
+1. Qual è l'obiettivo principale della regressione in Machine Learning?
+a) Classificare i dati in categorie
+b) Prevedere valori continui
+c) Ridurre il rumore nei dati
+d) Dividere i dati in cluster
+
+2. Quale di queste tecniche è utilizzata per la regressione lineare?
+a) Funzione di attivazione sigmoidale
+b) Metodo dei minimi quadrati
+c) Algoritmo k-means
+d) Alberi di decisione
+
+3. Qual è l'assunzione principale della regressione lineare?
+a) Le variabili sono categoriche
+b) Esiste una relazione lineare tra la variabile dipendente e indipendente
+c) I dati devono essere privi di outlier
+d) Tutte le feature sono altamente correlate
+
+4. Quale metrica è comunemente utilizzata per valutare una regressione lineare?
+a) Accuratezza
+b) Log-loss
+c) Mean Squared Error (MSE)
+d) Area sotto la curva (AUC)
+
+5. In una regressione multipla, cosa rappresenta il coefficiente di una variabile indipendente?
+a) Il contributo relativo alla predizione di un valore categorico
+b) La probabilità dell'evento target
+c) La variazione della variabile dipendente per ogni unità di aumento della variabile indipendente
+d) La somma dei residui
+
+6. Cosa succede se un modello di regressione è "overfit"?
+a) Si comporta bene sia sui dati di training che su quelli di test
+b) Generalizza bene su nuovi dati
+c) Si adatta troppo ai dati di training, ma non generalizza su dati non visti
+d) Non apprende affatto dai dati
+
+7. Quale tipo di regressione utilizza una penalizzazione per ridurre il numero di parametri non rilevanti?
+a) Regressione lineare semplice
+b) Regressione logistica
+c) Regressione Ridge e Lasso
+d) Regressione polinomiale
+
+8. Cosa indica un alto valore di R² in un modello di regressione?
+a) Il modello non spiega bene la variabilità dei dati
+b) Il modello spiega bene la variabilità dei dati
+c) Esiste una correlazione negativa tra variabili
+d) La previsione del modello è non lineare
+
+9. Qual è una limitazione della regressione lineare semplice?
+a) Non può gestire dati categorici
+b) È difficile da implementare
+c) Richiede un alto numero di parametri
+d) È sensibile al rumore nei dati
+
+10. Qual è l'effetto dell'inclusione di feature altamente correlate in una regressione multipla?
+a) Migliora le prestazioni del modello
+b) Non ha alcun effetto sulle prestazioni
+c) Può portare a multicollinearità, riducendo l'affidabilità delle stime dei coefficienti
+d) Aumenta automaticamente il valore di R²
+
+11. Quale tecnica può essere utilizzata per trasformare una relazione non lineare in una lineare?
+a) Regularizzazione
+b) Aggiunta di feature polinomiali
+c) Riduzione delle dimensioni
+d) Dropout
+
+12. Qual è l'effetto principale di una regressione Lasso?
+a) Penalizza i coefficienti riducendoli a zero
+b) Riduce solo i coefficienti grandi
+c) Aumenta la complessità del modello
+d) Ignora la multicollinearità
+
+13. Qual è il significato di "residui" in un modello di regressione?
+a) La differenza tra i dati osservati e quelli predetti
+b) I dati che il modello ignora
+c) Le feature irrilevanti nel dataset
+d) Il numero di iterazioni per la convergenza
+
+14. Quando utilizzare una regressione polinomiale invece di una lineare?
+a) Quando i dati mostrano una chiara relazione non lineare
+b) Quando il dataset è molto grande
+c) Quando il modello lineare ha un R² alto
+d) Quando si usa regularizzazione
+
+15. Quale algoritmo ottimizza la funzione obiettivo nella regressione lineare?
+a) Gradient Descent
+b) Algoritmo K-Means
+c) Support Vector Machine
+d) Backpropagation
+
+16. Cosa rappresenta il termine "bias" in un modello di regressione?
+a) La complessità del modello
+b) La differenza tra i valori predetti e il vero valore medio
+c) L'errore nei dati
+d) L'incapacità del modello di adattarsi ai dati di training
+
+17. Qual è lo scopo del termine di penalizzazione nella regressione Ridge?
+a) Rendere il modello più complesso
+b) Evitare overfitting riducendo i coefficienti grandi
+c) Migliorare l'accuratezza del modello sui dati di training
+d) Ridurre il numero di feature
+
+18. Quale scatterplot può indicare che una regressione lineare non è appropriata?
+a) Un pattern circolare nei dati
+b) Un pattern lineare nei dati
+c) Nessun pattern visibile
+d) Valori uniformemente distribuiti
+
+19. Qual è un segnale di multicollinearità in un dataset?
+a) I coefficienti della regressione cambiano drasticamente quando si aggiunge una nuova variabile
+b) L'accuratezza del modello diminuisce
+c) Il modello si adatta ai dati di test ma non a quelli di training
+d) Il dataset ha troppe righe
+
+20. Quale tipo di regressione è più indicato per predire probabilità?
+a) Regressione logistica
+b) Regressione Ridge
+c) Regressione polinomiale
+d) Regressione lineare
+
+21. Quale delle seguenti è una tecnica per rilevare overfitting in un modello di regressione?
+a) Utilizzo di tutti i dati per il training
+b) Analisi del residuo medio
+c) Suddivisione in training e test set
+d) Incremento del numero di feature
+
+22. Quale delle seguenti è un'ipotesi della regressione lineare?
+a) Distribuzione normale delle variabili indipendenti
+b) Autocorrelazione nei residui
+c) Nessuna relazione lineare tra variabili
+d) Varianza costante degli errori
+
+23. Quale metodo è utilizzato per selezionare feature nella regressione?
+a) PCA
+b) Variance Inflation Factor (VIF)
+c) KNN
+d) Backpropagation
+
+24. Che cosa rappresenta il termine 'errore assoluto medio' (MAE)?
+a) La radice quadrata della media dei residui
+b) La media degli errori al quadrato
+c) La media assoluta degli errori
+c) La somma dei residui
+
+25. Per quale scopo viene utilizzata la regressione quantile?
+a) Prevedere valori medi
+b) Modellare le medie condizionali
+c) Modellare le mediane condizionali
+d) Ridurre la dimensionalità del dataset
+
+26. Cos'è la regressione elastic net?
+a) Una combinazione di regressione Ridge e Lasso
+b) Un modello basato su kernel
+c) Un metodo non parametrico
+d) Una forma di regressione polinomiale
+
+27. Qual è l'obiettivo della validazione incrociata in regressione?
+a) Aumentare la complessità del modello
+b) Ottenere stime più accurate delle performance
+c) Ridurre il numero di dati di training
+d) Minimizzare il numero di variabili indipendenti
+
+28. Quando si usa la regressione log-log?
+a) Quando entrambe le variabili sono altamente non lineari
+b) Quando entrambe le variabili sono logaritmiche
+c) Per modellare relazioni esponenziali
+d) Per ridurre l'errore di previsione
+
+29. Quale tipo di regressione utilizza il kernel trick?
+a) Regressione lineare
+b) Regressione kernelizzata
+c) Regressione Ridge
+d) Regressione logistica
+
+30. Che cosa indica un basso valore di MSE in un modello?
+a) Alta varianza
+b) Buona performance del modello
+c) Bias elevato
+d) Complessità del modello in aumento
+
+31. Quale approccio è utilizzato per ridurre l'overfitting in regressione?
+a) Aumentare i dati di training
+b) Diminuire la complessità del modello
+c) Utilizzare tecniche di regularizzazione
+d) Tutte le precedenti
+
+32. Che cosa rappresenta il parametro alpha nella regressione Ridge?
+a) La forza della penalizzazione
+b) La pendenza della retta
+c) L'intercetta del modello
+d) La dimensione del dataset
+
+33. Quando è utile standardizzare le feature prima di applicare la regressione?
+a) Quando le scale delle feature variano significativamente
+b) Quando il dataset è molto grande
+c) Quando si utilizza una regressione polinomiale
+d) Quando si vuole ridurre l'errore assoluto medio
+
+34. Quale tecnica può essere utilizzata per selezionare automaticamente le feature?
+a) Grid search
+b) Regressione Lasso
+c) Gradient boosting
+d) Regressione polinomiale
+
+35. Cosa misura l'errore quadratico medio (MSE)?
+a) La varianza delle feature
+b) La media delle differenze tra valori predetti e osservati al quadrato
+c) La somma delle differenze assolute
+d) Il numero di outlier presenti
+
+36. Qual è l'obiettivo principale della regressione logistica?
+a) Predire probabilità di classi binarie
+b) Prevedere valori continui
+c) Ridurre il numero di feature non rilevanti
+d) Aumentare il valore di R²
+
+37. Quale metodo può gestire relazioni altamente non lineari?
+a) Regressione logistica
+b) Regressione polinomiale
+c) Regressione Ridge
+d) Regressione semplice
+
+38. Per quale scopo viene utilizzata la regressione robusta?
+a) Per minimizzare l'impatto degli outlier
+b) Per modellare relazioni esponenziali
+c) Per migliorare la scalabilità del modello
+d) Per aumentare l'accuratezza sui dati di test
+
+39. Cosa rappresenta il termine 'adjusted R²'?
+a) Una versione modificata di R² che tiene conto del numero di feature nel modello
+b) La media degli errori quadrati
+c) La media dei residui
+c) Una misura della complessità del modello
+
+40. Qual è il vantaggio della regressione Ridge rispetto alla regressione lineare?
+a) Minimizza l'overfitting
+b) Riduce il numero di feature
+c) Riduce il rumore nei dati
+d) Aumenta la complessità del modello
+
+41. Cosa indica il coefficiente di determinazione (R²) in una regressione?
+a) La varianza dei dati
+b) La percentuale di variabilità spiegata dal modello
+c) La complessità del modello
+d) La media degli errori assoluti
+
+42. Quale algoritmo è usato per ottimizzare il modello di regressione lineare?
+a) Gradient Descent
+b) K-Nearest Neighbors
+c) Decision Tree
+d) Naive Bayes
+
+43. Cosa accade quando si utilizza una funzione di perdita non corretta?
+a) Migliora l'accuratezza
+b) Peggiora le stime del modello
+c) Riduce la varianza
+c) Minimizza l'overfitting
+
+44. Quale tecnica può migliorare le performance di un modello lineare su dati non lineari?
+a) Aggiunta di variabili polinomiali
+b) Riduzione della dimensionalità
+c) Penalizzazione con Lasso
+d) Cross-validation
+
+45. Quando è utile utilizzare la regressione multipla?
+a) Quando ci sono più variabili dipendenti
+b) Quando si vuole aumentare la complessità del modello
+c) Quando ci sono più variabili indipendenti
+c) Quando il dataset è ridotto
+
+46. Qual è il ruolo della funzione di perdita nella regressione?
+a) Misurare la complessità del modello
+b) Calcolare il valore R²
+c) Ottimizzare i parametri minimizzando l'errore
+d) Generare nuovi dati
+
+47. Come si interpreta un residuo positivo in una regressione?
+a) Il modello ha sottostimato il valore osservato
+b) Il modello ha sovrastimato il valore osservato
+c) La feature non è rilevante
+c) Il dataset ha outlier
+
+48. Qual è una caratteristica distintiva della regressione polinomiale rispetto a quella lineare?
+a) Non richiede feature scalate
+b) È sensibile alla multicollinearità
+c) Modella relazioni non lineari
+c) Richiede un numero maggiore di osservazioni
+
+49. Cosa significa 'residual plot' in regressione?
+a) Un grafico che mostra i residui contro i valori predetti
+b) Un grafico che mostra la relazione tra variabili indipendenti
+c) Un metodo per valutare il bias
+c) Un'analisi delle feature
+
+50. Quale approccio viene utilizzato per migliorare un modello di regressione su dati sbilanciati?
+a) Bilanciamento del dataset
+b) Cross-validation
+c) Aumento della complessità del modello
+c) Riduzione del numero di feature
