@@ -1,0 +1,179 @@
+1. Quale algoritmo è comunemente utilizzato per classificazione binaria? B
+a) K-Means
+b) Regressione Logistica
+c) PCA
+d) KNN
+
+2. Quale algoritmo è più adatto per problemi di classificazione multi-classe? A
+a) Random Forest
+b) Naive Bayes
+c) Regressione Lineare
+d) DBSCAN
+
+3. Nel modello KNN, cosa rappresenta il parametro 'K'? B
+a) Numero di vicini considerati
+b) Profondità dell'albero
+c) Numero di iterazioni
+d) Numero di feature
+
+4. Qual è lo scopo della funzione kernel in SVM? B o C
+a) Ridurre il numero di feature
+b) Calcolare una funzione di distanza
+c) Proiettare i dati in uno spazio più alto
+d) Normalizzare i dati
+
+5. Quale assunzione fondamentale fa il modello Naive Bayes? A
+a) Gli attributi sono indipendenti
+b) Gli attributi sono correlati
+c) Gli attributi seguono una distribuzione normale
+d) Gli attributi sono lineari
+
+6. Quale metrica viene comunemente utilizzata per valutare modelli di classificazione binaria? C
+a) MAE
+b) Accuratezza
+c) R^2
+d) MSE
+
+7. Cosa rappresenta una curva ROC? A o B
+a) Relazione tra veri positivi e falsi positivi
+b) Relazione tra recall e precision
+c) L'errore medio assoluto
+d) La varianza nei dati
+
+8. Quale algoritmo può gestire bene il problema dell'overfitting? A
+a) Random Forest
+b) KNN
+c) Regressione Lineare
+d) DBSCAN
+
+9. Cosa rappresenta l'iperparametro 'max_depth' in un albero decisionale? B
+a) Numero massimo di nodi foglia
+b) Numero massimo di livelli nell'albero
+c) Numero minimo di dati per foglia
+d) Numero di feature usate
+
+10. Quale tecnica viene utilizzata per bilanciare un dataset squilibrato? C
+a) SMOTE
+b) Dropout
+c) PCA
+d) Batch Normalization
+
+11. Quale approccio utilizza il boosting per migliorare la performance del modello? A
+a) Combina modelli deboli per formarne uno forte
+b) Usa un singolo modello profondo
+c) Riduce il numero di feature
+d) Normalizza i dati
+
+12. Quale algoritmo utilizza un'architettura basata su nodi e foglie per classificare i dati? A
+a) Albero Decisionale
+b) K-Means
+c) PCA
+d) Regressione Lineare
+
+13. Quale metrica è più utile per dataset sbilanciati? B
+a) Accuratezza
+b) F1-Score
+c) RMSE
+d) MAE
+
+14. Cosa rappresenta il termine 'ensemble' in Machine Learning? B
+a) Uso di un singolo algoritmo
+b) Uso di una combinazione di algoritmi
+c) Riduzione della dimensionalità
+d) Normalizzazione dei dati
+
+15. Quale dei seguenti algoritmi è un metodo non parametrico? B
+a) KNN
+b) Regressione Logistica
+c) SVM
+d) Naive Bayes
+
+16. Cosa rappresenta la funzione di perdita 'cross-entropy'? B
+a) Misura la distanza tra due distribuzioni di probabilità
+b) Calcola l'errore quadratico
+c) Stima il tasso di overfitting
+d) Misura la correlazione
+
+17. Quale algoritmo è più adatto per classificare testi? C
+a) Naive Bayes
+b) Regressione Lineare
+c) K-Means
+d) PCA
+
+18. Quale tecnica di pre-processing è spesso utilizzata con SVM? A o C
+a) Normalizzazione
+b) SMOTE
+c) One-Hot Encoding
+d) Riduzione della dimensionalità
+
+19. Quale concetto definisce il 'margin' in SVM? A
+a) Distanza tra i dati e l'iperpiano
+b) Profondità del modello
+c) Numero di iterazioni richieste
+d) Grado di non linearità
+
+20. Qual è lo scopo principale della regolarizzazione L2? A
+a) Evitare l'overfitting
+b) Ridurre i dati mancanti
+c) Normalizzare i dati
+d) Migliorare la convergenza
+
+21. Qual è un vantaggio del metodo Random Forest rispetto a un singolo albero decisionale? A o C
+a) Maggiore varianza
+b) Minore sovradimensionamento
+c) Maggiore interpretabilità
+d) Minore complessità
+
+22. Quale algoritmo è basato sul calcolo della probabilità condizionata? A
+a) Naive Bayes
+b) KNN
+c) SVM
+d) PCA
+
+23. Quale metrica valuta il compromesso tra precision e recall? A o B
+a) F1-Score
+b) Accuratezza
+c) RMSE
+d) MSE
+
+24. Quale dei seguenti algoritmi può utilizzare bagging? A
+a) Random Forest
+b) Regressione Lineare
+c) PCA
+d) DBSCAN
+
+25. Quale tecnica viene utilizzata per evitare il sovradimensionamento nei modelli? B o C
+a) Cross-Validation
+b) Aumento del dataset
+c) Clustering
+d) Calibrazione
+
+26. Qual è un esempio di classificatore lineare? C
+a) Regressione Logistica
+b) Random Forest
+c) Albero Decisionale
+d) KNN
+
+27. Qual è il vantaggio dell'utilizzo di SVM con kernel non lineari? B
+a) Maggiore interpretabilità
+b) Capacità di gestire dati non separabili linearmente
+c) Riduzione delle dimensioni
+d) Migliore accuratezza sempre
+
+28. Quale modello è più sensibile ai valori anomali? B
+a) KNN
+b) SVM
+c) Random Forest
+d) Naive Bayes
+
+29. Quale iperparametro deve essere ottimizzato in Random Forest? A
+a) Numero di alberi
+b) Kernel
+c) Learning Rate
+d) Tasso di dropout
+
+30. Quale tecnica permette di combinare classificatori con diverse caratteristiche? A
+a) Ensemble Learning
+b) Regularization
+c) Feature Scaling
+d) PCA

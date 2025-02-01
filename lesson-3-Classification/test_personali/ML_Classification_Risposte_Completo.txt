@@ -1,0 +1,32 @@
+1. b) Regressione Logistica
+2. a) Random Forest
+3. a) Numero di vicini considerati
+4. c) Proiettare i dati in uno spazio più alto
+5. a) Gli attributi sono indipendenti
+6. b) Accuratezza
+7. a) Relazione tra veri positivi e falsi positivi
+8. a) Random Forest
+9. b) Numero massimo di livelli nell'albero
+10. a) SMOTE
+11. a) Combina modelli deboli per formarne uno forte
+12. a) Albero Decisionale
+13. b) F1-Score
+14. b) Uso di una combinazione di algoritmi
+15. a) KNN
+16. a) Misura la distanza tra due distribuzioni di probabilità
+17. a) Naive Bayes
+18. a) Normalizzazione
+19. a) Distanza tra i dati e l'iperpiano
+20. a) Evitare l'overfitting
+21. b) Minore sovradimensionamento
+22. a) Naive Bayes
+23. a) F1-Score
+24. a) Random Forest
+25. a) Cross-Validation
+26. a) Regressione Logistica
+27. b) Capacità di gestire dati non separabili linearmente
+28. b) SVM
+29. a) Numero di alberi
+30. a) Ensemble Learning
+
+21 su 30 -> 30/01/2025

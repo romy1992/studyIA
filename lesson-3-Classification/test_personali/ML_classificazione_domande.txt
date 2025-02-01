@@ -1,0 +1,50 @@
+1. Che cos'è un algoritmo di classificazione?
+2. Qual è la differenza tra classificazione binaria e multiclasse?
+3. Cos'è una funzione di decisione in un modello di classificazione?
+4. Quali sono i principali algoritmi di classificazione supervisionata?
+5. Come funziona il K-Nearest Neighbors (KNN)?
+6. Cos'è la matrice di confusione?
+7. Qual è il significato di accuratezza in un modello di classificazione?
+8. Come si misura la precisione di un classificatore?
+9. Cosa indica il valore di recall?
+10. Qual è il significato del punteggio F1?
+11. Come si utilizza la regressione logistica per la classificazione?
+12. Cos'è una funzione sigmoide e perché è usata nella regressione logistica?
+13. Come funziona un albero di decisione?
+14. Qual è il ruolo della profondità in un albero di decisione?
+15. Qual è la differenza tra overfitting e underfitting?
+16. Come si può prevenire l'overfitting in un modello di classificazione?
+17. Come funzionano le SVM (Support Vector Machines)?
+18. Cos'è il margine in un classificatore SVM?
+19. Qual è l'importanza del kernel nelle SVM?
+20. Cosa sono i classificatori ensemble?
+21. Qual è la differenza tra bagging e boosting?
+22. Come funziona il Random Forest?
+23. Qual è il principio base di AdaBoost?
+24. Cos'è un modello di classificazione basato su Naive Bayes?
+25. Come si calcolano le probabilità posteriori in Naive Bayes?
+26. Quali sono i vantaggi di Naive Bayes?
+27. Qual è il ruolo della normalizzazione nei modelli di classificazione?
+28. Cos'è il k-fold cross-validation?
+29. Come si sceglie il valore ottimale di k in KNN?
+30. Cos'è il ROC (Receiver Operating Characteristic) curve?
+31. Qual è il significato dell'AUC (Area Under the Curve)?
+32. Come si selezionano le caratteristiche in un modello di classificazione?
+33. Qual è il ruolo della standardizzazione nei dati di input?
+34. Come si confrontano più classificatori?
+35. Cos'è un dataset sbilanciato e come si gestisce?
+36. Quali metriche sono più utili per i dataset sbilanciati?
+37. Qual è il ruolo della stratificazione nel campionamento?
+38. Cos'è un classificatore probabilistico?
+39. Come si valutano i modelli multi-classe?
+40. Come funziona il metodo One-vs-Rest (OvR)?
+41. Cos'è il metodo One-vs-One (OvO)?
+42. Come si implementa una pipeline di classificazione in scikit-learn?
+43. Qual è il ruolo della validazione incrociata nella classificazione?
+44. Come si diagnostica un errore di modello?
+45. Quali sono i vantaggi di utilizzare il gradient boosting?
+46. Come funziona il modello XGBoost?
+47. Qual è la differenza tra hard e soft voting negli ensemble?
+48. Come si interpretano le caratteristiche più importanti in un classificatore?
+49. Qual è il ruolo del tuning degli iperparametri nei modelli di classificazione?
+50. Come si utilizzano le reti neurali per la classificazione?

@@ -57,3 +57,5 @@ a Bilanciamento del dataset
 12/01/25 : 25 su 30
 
 tot : 38 su 50
+
+41 su 50 il 18/01/2025
