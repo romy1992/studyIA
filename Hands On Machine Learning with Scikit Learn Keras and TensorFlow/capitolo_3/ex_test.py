@@ -206,5 +206,15 @@ plt.show()
 # %%
 from sklearn.metrics import roc_auc_score 
 print(roc_auc_score(y_train_5, y_scores))
+# %% Multiclasse
+from sklearn.svm import SVC
 
+svm_clf = SVC(gamma="auto", random_state=42)
+svm_clf.fit(X_train[:1000], y_train[:1000]) # y_train, not y_train_5 -> y_train a differenza di y_train_5, contiene classi da 0 a 9 e quindi il classificatore "capirà" meglio in questo caso
+svc_predict=svm_clf.predict([some_digit])
+print(svc_predict)
+some_digit_scores = svm_clf.decision_function([some_digit])#-> di fatti questo restituisce la "soglia" di ogni classe e il numero 5 avrà un numero elevato
+print(some_digit_scores)
+print(np.argmax(some_digit_scores))#np.argmax restituisce il numero più alto nell'array
+print(svm_clf.classes_)# restituisce le classi analizzate
 
