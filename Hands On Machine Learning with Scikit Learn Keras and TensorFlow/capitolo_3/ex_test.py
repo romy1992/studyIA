@@ -134,87 +134,14 @@ print(precisions, recalls, thresholds)
 """
 Infine, utilizzare Matplotlib per tracciare la precisione e richiamare in funzione il valore di soglia
 """
+import matplotlib.pyplot as plt 
 def plot_precision_recall_vs_threshold(precisions, recalls, thresholds):
-    plt.plot(thresholds, precisions[:-1], "b--", label="Precision", linewidth=2)
-    plt.plot(thresholds, recalls[:-1], "g-", label="Recall", linewidth=2)
-    plt.legend(loc="center right", fontsize=16) # Not shown in the book
-    plt.xlabel("Threshold", fontsize=16)        # Not shown
-    plt.grid(True)                              # Not shown
-    plt.axis([-50000, 50000, 0, 1])             # Not shown
-
-
-
-recall_90_precision = recalls[np.argmax(precisions >= 0.90)]
-threshold_90_precision = thresholds[np.argmax(precisions >= 0.90)]
-
-
-plt.figure(figsize=(8, 4))                                                                  # Not shown
+    plt.plot(thresholds, precisions[:-1], "b--", label="Precision")     
+    plt.plot(thresholds, recalls[:-1], "g-", label="Recall")  # highlight the threshold and add the legend, axis label, and grid
+    plot_precision_recall_vs_threshold(precisions, recalls, thresholds) 
+    plt.show()
+    
 plot_precision_recall_vs_threshold(precisions, recalls, thresholds)
-plt.plot([threshold_90_precision, threshold_90_precision], [0., 0.9], "r:")                 # Not shown
-plt.plot([-50000, threshold_90_precision], [0.9, 0.9], "r:")                                # Not shown
-plt.plot([-50000, threshold_90_precision], [recall_90_precision, recall_90_precision], "r:")# Not shown
-plt.plot([threshold_90_precision], [0.9], "ro")                                             # Not shown
-plt.plot([threshold_90_precision], [recall_90_precision], "ro")                             # Not shown
-save_fig("precision_recall_vs_threshold_plot")                                              # Not shown
-plt.show()
 # %%
-(y_train_pred == (y_scores > 0)).all()
-def plot_precision_vs_recall(precisions, recalls):
-    plt.plot(recalls, precisions, "b-", linewidth=2)
-    plt.xlabel("Recall", fontsize=16)
-    plt.ylabel("Precision", fontsize=16)
-    plt.axis([0, 1, 0, 1])
-    plt.grid(True)
-
-plt.figure(figsize=(8, 6))
-plot_precision_vs_recall(precisions, recalls)
-plt.plot([recall_90_precision, recall_90_precision], [0., 0.9], "r:")
-plt.plot([0.0, recall_90_precision], [0.9, 0.9], "r:")
-plt.plot([recall_90_precision], [0.9], "ro")
-save_fig("precision_vs_recall_plot")
-plt.show()
-
-# %%
-# (np.argmax() ti darà il primo indice del valore massimo, che in questo caso significa il primo  valore Vero):
-threshold_90_precision = thresholds[np.argmax(precisions >= 0.90)]
-# creo quindi un nuovo arrai con la soglia impostata sopra
+threshold_90_precision = thresholds[np.argmax(precisions >= 0.90)] 
 y_train_pred_90 = (y_scores >= threshold_90_precision) 
-print(precision_score(y_train_5, y_train_pred_90))
-print(recall_score(y_train_5, y_train_pred_90))
-"""
-I risultati , dopo aver cambiato la soglia, cambiano fino ad arrivare ad un 90% di precisione ma calano di recall
-"""
-# %%
-from sklearn.metrics import roc_curve
-fpr, tpr, thresholds = roc_curve(y_train_5, y_scores)
-def plot_roc_curve(fpr, tpr, label=None):
-    plt.plot(fpr, tpr, linewidth=2, label=label)
-    plt.plot([0, 1], [0, 1], 'k--') # dashed diagonal
-    plt.axis([0, 1, 0, 1])                                    # Not shown in the book
-    plt.xlabel('False Positive Rate (Fall-Out)', fontsize=16) # Not shown
-    plt.ylabel('True Positive Rate (Recall)', fontsize=16)    # Not shown
-    plt.grid(True)                                            # Not shown
-
-plt.figure(figsize=(8, 6))                                    # Not shown
-plot_roc_curve(fpr, tpr)
-fpr_90 = fpr[np.argmax(tpr >= recall_90_precision)]           # Not shown
-plt.plot([fpr_90, fpr_90], [0., recall_90_precision], "r:")   # Not shown
-plt.plot([0.0, fpr_90], [recall_90_precision, recall_90_precision], "r:")  # Not shown
-plt.plot([fpr_90], [recall_90_precision], "ro")               # Not shown
-save_fig("roc_curve_plot")                                    # Not shown
-plt.show()
-# %%
-from sklearn.metrics import roc_auc_score 
-print(roc_auc_score(y_train_5, y_scores))
-# %% Multiclasse
-from sklearn.svm import SVC
-
-svm_clf = SVC(gamma="auto", random_state=42)
-svm_clf.fit(X_train[:1000], y_train[:1000]) # y_train, not y_train_5 -> y_train a differenza di y_train_5, contiene classi da 0 a 9 e quindi il classificatore "capirà" meglio in questo caso
-svc_predict=svm_clf.predict([some_digit])
-print(svc_predict)
-some_digit_scores = svm_clf.decision_function([some_digit])#-> di fatti questo restituisce la "soglia" di ogni classe e il numero 5 avrà un numero elevato
-print(some_digit_scores)
-print(np.argmax(some_digit_scores))#np.argmax restituisce il numero più alto nell'array
-print(svm_clf.classes_)# restituisce le classi analizzate
-
