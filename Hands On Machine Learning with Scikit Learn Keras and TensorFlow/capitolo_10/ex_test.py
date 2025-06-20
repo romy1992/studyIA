@@ -257,6 +257,17 @@ with writer.as_default():
 # %%
 """
 Nel capitolo 10 leggere anche "Ottimizzazione degli iperparametri delle reti neurali" per trovare un giusto modo nel caso di bisogno
+
+Parlerà anche del "Tasso di apprendimento" che è il più importante degli iperparametri e nell'ultimo esercizio (il 10) usa un algoritmo ExponentialLearningRate :
+    Invece di mantenere fisso il learning rate, ExponentialLearningRate lo decresce (o talvolta cresce) esponenzialmente man mano che aumentano le epoche o gli step:
+        Dove:
+            decay è un fattore di decadimento esponenziale, tipicamente tra 0.9 e 0.99
+            epoch è l'indice attuale dell'epoca di addestramento
+
+        Perché è utile?
+        All'inizio dell’addestramento si vuole un learning rate più alto per fare passi più grandi.
+        Man mano che si avvicina al minimo della funzione di costo, si riduce il learning rate per stabilizzare la discesa ed evitare oscillazioni
+
 """
 """
 Inoltre come facciamo a decidere quanti layer nascosti e nuroni usare?
